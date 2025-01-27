@@ -1,5 +1,8 @@
-# 22BCS14695_AdithMR
-
+# Advanced Programming Sem 6 All Problemset
+### Name: Adith M.R.
+### UID: 22BCS14695
+### Section: 601 B (Fast Learners)
+---
 ## Day 1
 
 | **Problem**                                | **Type** | **Link**                                                                 |
@@ -34,3 +37,10 @@
 | Rotate a list                              | CW       | [Problem](https://leetcode.com/problems/rotate-list)                      |
 | Merge k sorted lists                       | CW       | [Problem](https://leetcode.com/problems/merge-k-sorted-lists/)            |
 | Sort List                                  | HW       | [Problem](https://leetcode.com/problems/sort-list/description/)           |
+
+
+**Note**:  
+- **CW** = Class Work  
+- **HW** = Homework  
+
+---
