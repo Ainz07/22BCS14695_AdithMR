@@ -17,6 +17,8 @@
 | Jump Game 2                                | HW       | [Problem](https://leetcode.com/problems/jump-game-ii)                     |
 | 3Sum                                       | HW       | [Problem](https://leetcode.com/problems/3sum/)                            |
 | Set Matrix Zeroes                          | CW       | [Problem](https://leetcode.com/problems/set-matrix-zeroes/)               |
+| Longest substring without repeating characters | HW    | [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
+| Finding duplicate number                   | HW       | [Problem](https://leetcode.com/problems/find-the-duplicate-number/description/) |
 
 ---
 
@@ -24,8 +26,6 @@
 
 | **Problem**                                | **Type** | **Link**                                                                 |
 |--------------------------------------------|----------|---------------------------------------------------------------------------|
-| Longest substring without repeating characters | HW    | [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
-| Finding duplicate number                   | HW       | [Problem](https://leetcode.com/problems/find-the-duplicate-number/description/) |
 | Print linked list                          | CW       | [Problem](https://www.geeksforgeeks.org/problems/print-linked-list-elements/0) |
 | Remove duplicates from a sorted list       | CW       | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |
 | Reverse a linked list                      | CW       | [Problem](https://leetcode.com/problems/reverse-linked-list/)             |
