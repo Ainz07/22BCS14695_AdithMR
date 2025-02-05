@@ -25,7 +25,7 @@ int removeDuplicates(vector<int>& nums){
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=10Sq_xmjPnSUNPWoPvIc7rF-lidGC8JKl)
 
 ## 2. Implementing insertion sort  
 **Link:** [Insertion Sort](https://www.geeksforgeeks.org/problems/insertion-sort/1)  
@@ -44,7 +44,7 @@ void insertionSort(vector<int>& arr) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1SkYB8Xi_I48mPudUeWXlswfyHUvhez73)
 
 ## 3. Contains duplicate  
 **Link:** [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)  
@@ -61,7 +61,7 @@ bool containsDuplicate(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1n7iSpJSTQlq7dcUOH2Sx4LN1Pk1kLGWl)
 
 ## 4. Two Sum
 **Link:** [Two Sum](https://leetcode.com/problems/two-sum/description/)  
@@ -83,7 +83,7 @@ vector<int> twoSum(vector<int>& arr, int target) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1GAh18cIwjM3591w0gwEeXd4gdK3OozxJ)
 
 ## 5. Jump Game
 **Link:** [Jump Game](https://leetcode.com/problems/jump-game/description/)  
@@ -102,7 +102,7 @@ bool canJump(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1ekvPtNsvDShWOoOVzEoylqAV2TrezpP5)
 
 ## 6. Majority Element  
 **Link:** [ Majority Element](https://leetcode.com/problems/majority-element/description/)  
@@ -121,7 +121,7 @@ int majorityElement(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1SU7pkYWohQSIoVjIfPNveNiPQgwSxl0G)
 
 ## 7. Valid Palindrome
 **Link:** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)  
@@ -143,7 +143,7 @@ bool isPalindrome(string s) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1AoPerICnT72UF-qSH1m4sRB4q2sjtGu7)
 
 ## 8. Jump Game 2 
 **Link:** [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  
@@ -164,7 +164,7 @@ int jump(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1dBrtvRMMiGkhKnU1-uFAXUD4WYRfyz0t)
 
 ## 9. 3Sum 
 **Link:** [3Sum](https://leetcode.com/problems/3sum/description/)  
@@ -198,7 +198,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1WKBZgoVFr1dRYoTeDltq5p5YRcdoG_lS)
 
 ## 10. Set Matrix Zeroes  
 **Link:** [ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)  
@@ -227,7 +227,7 @@ void setZeroes(vector<vector<int>>& matrix) {
     }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1vWYVx0nIQFR21GDExNYvJZ1CWBErH7G1)
 
 ## 11. Longest substring without repeating characters 
 **Link:** [Longest substring without repeating characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)  
@@ -249,7 +249,7 @@ int lengthOfLongestSubstring(string s) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1CatXFLTdR6EPVncMTgo2LqU2immL0TBq)
 
 ## 12. Find the Duplicate Number 
 **Link:** [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  
@@ -269,7 +269,7 @@ int findDuplicate(vector<int>& nums) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1Pk9ZnxodQaaLEPl4EKhCdvx8teRvuDao)
 
 # Linked List Problems
 
@@ -287,29 +287,30 @@ void printList(Node *head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1PCu_546-knPR4vt6dj0WJbsZ0eQVGcvD)
 
 ## 2. Remove Duplicates from a Sorted List  
 **Link:** [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)  
 **Solution:**  
 ```cpp
-void removeDuplicates(Node* head) {
-    if (head == nullptr) return;
-    Node* current = head;
+ListNode* deleteDuplicates(ListNode* head) {
+    if (head == nullptr) return head;
+    ListNode* current = head;
 
     while (current->next != nullptr) {
-        if (current->data == current->next->data) {
-            Node* temp = current->next;
+        if (current->val == current->next->val) {
+            ListNode* temp = current->next;
             current->next = current->next->next;
             delete temp;
         } else {
             current = current->next;
         }
     }
+    return head;
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1uyxoPSReA5sUAUKSZn8X1ePvQR_FkdFG)
 
 ## 3. Reverse a Linked List  
 **Link:** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  
