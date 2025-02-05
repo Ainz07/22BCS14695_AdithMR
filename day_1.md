@@ -339,7 +339,7 @@ ListNode* reverseList(ListNode* head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1h7CA6OTAUytQD_hntZQVPInrvDmnX-hk)
 
 ## 4. Delete the Middle Node of a List  
 **Link:** [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)  
@@ -371,7 +371,7 @@ ListNode* deleteMiddle(ListNode* head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1JBrTIXlhr5AAqiKEmkIDZn-zm1Ry6JgW)
 
 ## 5. Merge Two Sorted Linked Lists  
 **Link:** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
@@ -390,7 +390,7 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1iwdMxPZKHIPe0VqW9MBKPasYy_vn_0Ih)
 
 ## 6. Remove Duplicates from Sorted Lists II  
 **Link:** [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  
@@ -413,7 +413,7 @@ ListNode* deleteDuplicates(ListNode* head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1BQYI-b_COIgTyjXW86d5-mWUQNQXoggI)
 
 ## 7. Detect Cycle in a Linked List  
 **Link:** [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  
@@ -430,7 +430,7 @@ bool hasCycle(ListNode* head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1PAVnFJwQ9VWmSEFJjMnH_UIj1s7QD-sG)
 
 ## 8. Reverse Linked List II  
 **Link:** [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  
@@ -451,7 +451,7 @@ ListNode* reverseBetween(ListNode* head, int left, int right) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1FytzrSVZcZWp_wCDXc0D25-IVj5IId7f)
 
 ## 9. Rotate Linked List  
 **Link:** [Rotate List](https://leetcode.com/problems/rotate-list/)  
@@ -475,7 +475,7 @@ ListNode* rotateRight(ListNode* head, int k) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=18l1Hb-NUwEV7yW6_E-4FiH1DlONYJkst)
 
 ## 10. Merge k Sorted Lists  
 **Link:** [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  
@@ -497,7 +497,7 @@ ListNode* mergeKLists(vector<ListNode*>& lists) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1D1Nf5jAHSkuifkvR5J8J3QzP9or936FH)
 
 ## 11. Sort a Linked List  
 **Link:** [Sort List](https://leetcode.com/problems/sort-list/)  
@@ -533,4 +533,4 @@ ListNode* sortList(ListNode* head) {
 }
 ```
 **Screenshot:**  
-*(Add your screenshot here if available)*  
+![Alt Text](https://drive.google.com/uc?export=view&id=1ZR15p641GVcU3p5i_KUWc19uWLEvrlE-)
